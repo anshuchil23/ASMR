@@ -1,0 +1,117 @@
+html {
+	background-color:black;
+	color: #8a8a8a;
+	/* font-size: 17px; */
+	font-family: 'Muli', sans-serif;
+	overflow-y: scroll; }
+
+	header{
+		font-family: "Karla" ;
+		color: snow;
+		font-size: 100px;
+		text-align: center;
+		border-style: none none solid none;
+		border-width: 3px;
+		border-color: lavender;
+	}
+	}
+h1 {
+	color:#000000;
+	margin: 65px 40px 70px;
+	text-align: center;
+	font-size: 2rem;
+
+}
+body {
+
+  	margin: 0 auto;
+  	width: 1000px;
+
+
+}
+h2 {
+	color:white;
+	font-size: 14px;
+}
+p{
+
+}
+.video {
+  margin:20px auto ;
+  width: 50%;
+
+  height:500px;
+  background-image: url('giphy.gif');";
+}
+
+.caption {
+  margin: 0px auto 200px;
+  width: 50%;
+
+}
+.float-figure{
+	margin-left: 250px;
+	width: 100px;
+	/* float: left; */
+  /* border: 3px solid green; */
+}
+
+.float-figure img {
+	width:50px;
+	height:auto;
+  border-radius: 50%;
+
+}
+figcaption{
+  	font-size: 12px;
+}
+.float-figure + section {
+	/* margin-bottom: 220px; */	
+
+}
+.right{
+
+    float: right;
+    color: white;
+    margin-right: 10%;
+
+}
+a:link {
+	text-decoration: none;
+	color:white;
+  }
+  
+  /* visited link */
+  a:visited {
+	text-decoration: none;
+	color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	text-decoration: none;
+	color: lavender;
+  }
+  
+  /* selected link */
+  a:active {
+	text-decoration: none;
+	color: white;
+  }
+.left{
+	margin-left: 10%;
+	color: white;
+  }
+  .left2{
+	margin-left: 10%;
+	color: white;
+  }
+/* .float-figure + section::after {
+	content: "";
+	display: block;
+	height: 2em;
+	clear: left;
+} */
+/* figcaption{
+  margin-left:100%;
+} */
