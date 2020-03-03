@@ -1,0 +1,49 @@
+body{
+background-color: Black;
+}
+h1.solid{border-style: none none solid none;}
+
+h1{
+    font-family: "Karla" ;
+    color: mintcream;
+    font-size: 100px;
+    text-align: center;
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: lavender;
+}
+
+h2{
+    font-family: "Karla" ;
+    color: mintcream;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+form{
+    font-family: "Karla" ;
+    color: lavender;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+button{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: "Karla" ;
+    letter-spacing: 2px;
+    background-color: mintcream;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+button:hover{
+background-color: lavender;
+}
+}
